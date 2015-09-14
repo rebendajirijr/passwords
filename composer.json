@@ -1,0 +1,27 @@
+{
+    "name": "jr/passwords",
+    "description": "Lightweight Nette-powered password generation and hashing.",
+    "authors": [
+        {
+            "name": "RebendaJiri",
+            "email": "jiri.rebenda@htmldriven.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+		"php": ">= 5.4.4",
+		"nette/security": "~2.3.0",
+		"nette/utils": "~2.3.0"
+	},
+	"require-dev": {
+		"nette/tester": "~1.5"
+	},
+	"autoload": {
+		"psr-0": {
+			"JR\\Passwords\\": "src/"
+		},
+		"classmap": [
+			"src/JR/Passwords/exceptions.php"
+		]
+	}
+}
